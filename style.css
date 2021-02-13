@@ -1,0 +1,72 @@
+html,body{
+    margin: 0.0;
+    padding: 0.0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("C:\\Users\\Pragati\\Desktop\\web(udemy)\\project1\\a13.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+header{
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+header>h1{
+    font-size: 50px;
+    color: white
+}
+header>i{
+    font-size: 35px;
+    color: white;
+}
+nav{
+    height: 10vh;
+    width: 100%; 
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.600);    
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    height: 55vh;
+    width: 100%; 
+    font-family: comic sans, Helvetica, sans-serif;  
+    padding-left: 10%;
+    padding-right: 10%;
+}
+footer{
+    height: 20vh;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.800);   
+}
+p>a{
+    color: rgb(255,193,7);   
+}
+p a:hover{
+    text-decoration: underline;
+}
+main>p{
+    padding-top: 4%;
+}
+main>h1>i{
+    font-size: 60px;
+}
